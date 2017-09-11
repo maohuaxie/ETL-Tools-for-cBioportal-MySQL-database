@@ -1,13 +1,13 @@
-#Building the cBioportal local instance
+# Building the cBioportal local instance
 
-#Developing scripts with several programming languages in order to automate processes such as gene mutation annotation, data validation and loading
+# Developing scripts with several programming languages in order to automate processes such as gene mutation annotation, data validation and loading
 
-#Monitoring and updating databases in order to maintain data accuracy and eliminate data discrepancies
+# Monitoring and updating databases in order to maintain data accuracy and eliminate data discrepancies
 
 
 # Before we are learning how to perform bionformatic data analysis, we need to set up the ubuntu 16.04 LTS linux system.
 # one step I want to point out is that it is much better for the linux beginner to partition the disk as below.
-#For simplicity, we partition 3 disks:
+# For simplicity, we partition 3 disks:
 / # one is for boot, if you have enough disk space, please allocate more than 100 GB for boot.
 swap # one is for swap, basically, It is allocated twice size with your RAM, if you RAM is 32 GB, please allocate 64 GB for swap
 /data # one is for data, all the left disk space are allocated to data disk. 
@@ -31,6 +31,6 @@ gateway 192.168.107.2 // you could get the infor from the properties of your net
 netmask 255.255.255.0
 dns-nameservers 8.8.8.8
 
-#and then, go to /etc/NetworkManager/NetworkManager.conf folder
+# and then, go to /etc/NetworkManager/NetworkManager.conf folder
 sudo vim /etc/NetworkManager/NetworkManager.conf  or sudo nano /etc/NetworkManager/NetworkManager.conf
 [if updown] managed = false  // change false to true
