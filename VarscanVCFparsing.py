@@ -4,7 +4,8 @@ Created on Mon Sep 11 08:25:43 2017
 
 @author: maohuaxie
 """
-
+# This scrpit is for parsing all the varscan_calling VCF files across the 
+#(Q:/Pathology and EML/CLINICAL SPECIMENS/2016 and Q:/Pathology and EML/CLINICAL SPECIMENS/2017) directory and subdirectory.
 import shutil
 import os
 import glob
