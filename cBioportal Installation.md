@@ -38,11 +38,7 @@ export PATH=/home/maohuaxie/perl/perl-5.22.2/bin:$PATH
 
 export PATH=/home/maohuaxie/vep/samtools/bin:$PATH
 
-4) In the "Add PORTAL_HOME to Tomcat" section: please change (export PORTAL_HOME= $CATALINA_HOME 
-
-+ "/webapps/cbioportal/WEB-INF/classes/") to (export PORTAL_HOME= "$CATALINA_HOME/webapps/cbioportal/WEB-INF/classes/") in order to
-
-address the error you may get.
+4) In the "Add PORTAL_HOME to Tomcat" section: please change (export PORTAL_HOME= $CATALINA_HOME + "/webapps/cbioportal/WEB-INF/classes/") to (export PORTAL_HOME= "$CATALINA_HOME/webapps/cbioportal/WEB-INF/classes/") in order to address the error you may get.
 
 5) when you get this error, you can try the following step to fix the error:
 log4j:ERROR setFile(null,true) call failed.
